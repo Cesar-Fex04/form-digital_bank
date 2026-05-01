@@ -29,9 +29,13 @@ yarn-error.log
 !.vscode/mcp.json
 .history/*
 
-# Miscellaneous
+# Angular cache
 /.angular/cache
+
+# Sass cache
 .sass-cache/
+
+# Miscellaneous
 /connect.lock
 /coverage
 /libpeerconnection.log
@@ -39,6 +43,15 @@ testem.log
 /typings
 __screenshots__/
 
+# Environment files (contains secrets, API keys, etc.)
+*.env
+*.env.*
+!*.env.example
+/src/environments/environment.ts
+/src/environments/environment.prod.ts
+
 # System files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
