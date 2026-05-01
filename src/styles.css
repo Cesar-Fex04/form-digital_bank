@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+/* ============================================================
+   Estilos globales – Digital Bank
+   El fondo y fuente base DEBEN ir aquí para que Angular los aplique
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --mint-50:   #e8f8f2;
+  --mint-100:  #c3eddf;
+  --mint-300:  #6dcaab;
+  --mint-500:  #2da882;
+  --mint-700:  #1a7a5e;
+  --sky-50:    #e6f4fb;
+  --sky-100:   #bde0f6;
+  --sky-300:   #63b8ec;
+  --sky-500:   #2196d4;
+  --sky-700:   #145f91;
+  --lemon-50:  #fef9e6;
+  --gray-100:  #f4f6f5;
+  --gray-200:  #e8eceb;
+  --gray-400:  #a8b5b0;
+  --gray-600:  #6b7c77;
+  --gray-800:  #2d3b37;
+  --red-400:   #e05454;
+  --red-50:    #fef0f0;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, var(--mint-50) 0%, var(--sky-50) 50%, var(--lemon-50) 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
